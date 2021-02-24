@@ -1,0 +1,312 @@
+:root {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+
+body {
+    border: 1px solid rgb(149, 149, 155);
+    ;
+}
+
+#logo {
+    justify-content: left;
+    padding-left: 24px;
+}
+
+.photo {
+    width: 100%;
+}
+
+.video {
+    width: 100%;
+}
+
+.nav-header .nav-extra li {
+    float: right;
+    padding-left: 16px;
+}
+
+.nav-header {
+    background-color: whitesmoke;
+    padding: 0.5em;
+    color: rgb(105, 98, 99);
+    font-size: larger;
+    display: flex;
+    z-index: 10;
+    padding-right: 16px;
+}
+
+.nav-header .nav-extra {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding-right: 24px;
+}
+
+.nav-header .nav-extra .hide-list {
+    list-style: none
+}
+
+.nav-header .nav-logo {
+    display: flex;
+    padding: 5px;
+}
+
+.first-section {
+    display: flex;
+    background-color: rgb(158, 154, 155, 0.5);
+    padding: 32px 24px;
+}
+
+.first-section .title-foto {
+    width: 60%;
+    margin: 24px;
+}
+
+.first-section .loren-ipsum {
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
+    margin-top: 24px;
+    justify-content: center;
+}
+
+.first-section .page {
+    display: flex;
+    justify-content: center;
+    padding: 55px;
+}
+
+.first-section .page button {
+    width: 100%;
+    padding: 20px;
+    color: white;
+    background-color: rgb(61, 61, 68);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.first-section .loren-ipsum h2 {
+    color: rgb(125, 110, 139);
+    font-size: 3em;
+}
+
+.first-section .loren-ipsum p {
+    color: rgb(97, 121, 148);
+}
+
+.second-section {
+    display: flex;
+}
+
+.second-section .big-section {
+    width: 60%;
+    padding: 32px 24px;
+}
+
+.second-section .big-section h2 {
+    margin-bottom: 24px;
+    color: rgb(125, 110, 139);
+}
+
+.second-section .big-section p {
+    color: rgb(97, 121, 148);
+}
+
+.second-section .big-section footer {
+    margin-bottom: 32px;
+    color: rgb(76, 68, 72);
+}
+
+.second-section .small-sections {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+
+.second-section .small-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.second-section .small-section .inline-text {
+    text-align: left;
+}
+
+.second-section .small-section .inline-text h4 {
+    color: rgb(45, 56, 163);
+}
+
+.second-section .small-section .inline-text a {
+    display: block;
+}
+
+.second-section .small-section.grey {
+    background-color: rgb(223, 217, 217);
+}
+
+.second-section .small-section .book-foto {
+    width: 35%;
+    margin: 16px;
+}
+
+.second-section .small-section .inline-text {
+    width: 65%;
+}
+
+.second-section .book-foto {
+    width: 100%;
+}
+
+.third-section {
+    padding-right: 40px;
+    padding-left: 72px;
+    background-color: rgb(158, 154, 155, 0.5);
+    padding-bottom: 32px;
+}
+
+.third-section .small-row {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    margin-top: 32px;
+}
+
+.third-section .small-row .row-element {
+    margin-right: 32px;
+    width: 33.3%;
+    background-color: white;
+}
+
+.third-section .small-row .row-element .book-foto {
+    width: 100%;
+}
+
+.third-section h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 4em;
+    color: rgb(105, 98, 99);
+    padding-top: 32px;
+}
+
+.small-row .row-element .inline-text {
+    padding: 16px;
+}
+
+.small-row .row-element .inline-text h4 {
+    color: rgb(125, 110, 139);
+}
+
+.small-row .row-element .inline-text h5 {
+    color: rgb(97, 121, 148);
+    padding-bottom: 8px;
+}
+
+.small-row .row-element .inline-text p {
+    color: rgb(97, 121, 148);
+}
+
+.fourth-section h1 {
+    text-align: center;
+    color: rgb(105, 98, 99);
+    font-size: 2em;
+    font-weight: bold;
+    margin: 32px 0 32px 0;
+}
+
+.fourth-section .small-section {
+    display: flex;
+}
+
+.fourth-section .video-thesis {
+    width: 60%;
+    padding: 24px;
+}
+
+.fourth-section .fourth-columns {
+    display: flex;
+    flex-flow: column;
+    width: 40%;
+    padding-top: 24px;
+}
+
+.fourth-section .fourth-row {
+    display: flex;
+    background-color: rgb(223, 217, 217);
+    padding: 16px;
+    text-align: left;
+}
+
+.fourth-section .fourth-row .photo {
+    width: 35%;
+}
+
+.fourth-section p {
+    color: rgb(97, 121, 148);
+}
+
+.fourth-section .fourth-row h4 {
+    color: rgb(45, 56, 163);
+}
+
+.fourth-section .fourth-row .inline-text {
+    padding-left: 16px;
+}
+
+.fourth-section .fifth-row {
+    display: flex;
+    padding: 16px;
+    text-align: left;
+}
+
+.fourth-section .fifth-row .photo {
+    width: 35%;
+}
+
+.fourth-section .fifth-row h4 {
+    color: rgb(45, 56, 163);
+}
+
+.fourth-section .fifth-row .inline-text {
+    padding-left: 16px;
+}
+
+.fourth-section .inline-text h4 {
+    color: rgb(45, 56, 163);
+}
+
+.last-footer {
+    border-top: 2px solid rgb(223, 217, 217);
+    display: flex;
+    color: rgb(105, 98, 99);
+    background-color: whitesmoke;
+}
+
+.last-footer .footer-row-one {
+    display: flex;
+    width: 150%;
+    justify-content: flex-start;
+}
+
+.last-footer .footer-row-two {
+    display: flex;
+    width: 100%;
+    flex-flow: row-reverse;
+    align-items: center;
+}
+
+.last-footer .footer-row-two ul {
+    display: flex;
+    list-style: none;
+}
+
+.last-footer .footer-row-two li {
+    padding: 20px;
+}
+
+.last-footer .footer-row-one h4 {
+    display: flex;
+    padding: 20px;
+}
